@@ -1,0 +1,162 @@
+@media (min-width: 375px) {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background: #e5e5e5;
+  }
+  a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  h1,
+  h2,
+  h3 {
+    padding-bottom: 20px;
+  }
+
+  p {
+    margin: 10px 0;
+  }
+  .container {
+    max-width: 350px;
+    margin: 10px auto;
+    padding: 24px;
+    background: #fff;
+  }
+
+  /* Header */
+  header {
+    margin-bottom: 95px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #6070ff;
+    margin-bottom: 35px;
+  }
+
+  nav h1 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+  }
+
+  nav a i {
+    color: #6070ff;
+    font-size: 18px;
+  }
+
+  /* Showcase */
+  .showcase {
+    background: url("./img/header-shapes-mobile.png") no-repeat center
+      center/cover;
+    padding: 44px 0;
+  }
+
+  .showcase::before {
+    background: #ebebff;
+    height: 100vh;
+  }
+
+  .showcase h2 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 52px;
+    color: #172b4d;
+  }
+  .showcase p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .showcase h3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #7f8cff;
+  }
+
+  .social a img {
+    color: #505f79;
+    width: 19.99px;
+    height: 19.96px;
+    margin-right: 20px;
+  }
+  .social a i {
+    font-size: 26.99px;
+    margin-right: 20px;
+  }
+
+  /* Section Info */
+  .info {
+    margin-bottom: 95px;
+  }
+  .content-info h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .content-info ul {
+    list-style: disc;
+  }
+  .content-info ul li {
+    display: inline-block;
+  }
+  .content-info p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  /* Buttons */
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    font-style: normal;
+    cursor: pointer;
+  }
+  .btn-light {
+    background: #ebebff;
+    padding: 4px 12px;
+    margin: 0px 8px;
+  }
+  .btn-outline {
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    background: transparent;
+    border: 1px solid #396df2;
+  }
+}
