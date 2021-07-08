@@ -110,6 +110,11 @@
   }
 
   /* Section Info */
+  .flex-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .blog {
     margin-bottom: 95px;
   }
