@@ -42,14 +42,14 @@
   nav {
     display: flex;
     justify-content: space-between;
-    color: #6070ff;
     margin-bottom: 35px;
   }
 
-  nav h1 {
+  nav a h1 {
     font-size: 20px;
     line-height: 20px;
     font-weight: 700;
+    color: #6070ff;
   }
 
   nav a i {
