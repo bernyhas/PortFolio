@@ -1,5 +1,6 @@
 @media (min-width: 375px) {
   @import url("https://fonts.googleapis.com/css2?family=Poppins");
+
   * {
     margin: 0;
     padding: 0;
@@ -20,7 +21,6 @@
   h2,
   h3 {
     padding-bottom: 20px;
-    font-family: Poppins;
   }
 
   p {
@@ -84,7 +84,6 @@
   }
 
   .showcase h3 {
-    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -110,7 +109,6 @@
   }
 
   .content-info h2 {
-    font-family: Poppins;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -147,7 +145,6 @@
   }
 
   .content-info p {
-    font-family: Poppins;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
