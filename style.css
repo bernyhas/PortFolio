@@ -92,6 +92,11 @@
     color: #7f8cff;
   }
 
+  .social ul {
+    list-style: none;
+    display: flex;
+  }
+
   .social a img {
     color: #505f79;
     width: 19.99px;
