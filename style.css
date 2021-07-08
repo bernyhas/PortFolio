@@ -100,7 +100,7 @@
   }
 
   /* Section Info */
-  .info {
+  .blog {
     margin-bottom: 95px;
   }
   .content-info h2 {
@@ -112,19 +112,42 @@
     color: #172b4d;
   }
 
-  .content-info ul {
-    list-style: disc;
+  .content-sub-info {
+    display: flex;
+    align-items: center;
   }
-  .content-info ul li {
-    display: inline-block;
+
+  .content-sub-info > span {
+    margin-right: 10px;
   }
+
+  .content-sub-info span:first-child {
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .circle-info {
+    font-size: 13px;
+    line-height: 16px;
+    color: #7a869a;
+  }
+
+  .circle-info-icon {
+    font-size: 8px;
+    color: #7a869a;
+  }
+
   .content-info p {
     font-family: Poppins;
     font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
     color: #344563;
+    margin: 12px 0;
   }
 
   /* Buttons */
@@ -148,7 +171,7 @@
   .btn-light {
     background: #ebebff;
     padding: 4px 12px;
-    margin: 0px 8px;
+    margin-right: 8px;
   }
   .btn-outline {
     padding: 10px 20px;
