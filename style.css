@@ -59,8 +59,8 @@
 
   /* Showcase */
   .showcase {
-    background: url("./img/header-shapes-mobile.png") no-repeat center
-      center/cover;
+    background: url("./img/header-shapes-mobile.png") no-repeat center center;
+    background-size: cover;
     padding: 44px 0;
   }
 
@@ -98,6 +98,7 @@
     height: 19.96px;
     margin-right: 20px;
   }
+
   .social a i {
     font-size: 26.99px;
     margin-right: 20px;
